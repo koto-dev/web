@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Honoka</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <style type="text/css">
+  body { padding-top: 80px; }
+  @media ( min-width: 768px ) {
+    #banner {
+      min-height: 300px;
+      border-bottom: none;
+    }
+    .bs-docs-section {
+      margin-top: 8em;
+    }
+    .bs-component {
+      position: relative;
+    }
+    .bs-component .modal {
+      position: relative;
+      top: auto;
+      right: auto;
+      left: auto;
+      bottom: auto;
+      z-index: 1;
+      display: block;
+    }
+    .bs-component .modal-dialog {
+      width: 90%;
+    }
+    .bs-component .popover {
+      position: relative;
+      display: inline-block;
+      width: 220px;
+      margin: 20px;
+    }
+    .nav-tabs {
+      margin-bottom: 15px;
+    }
+    .progress {
+      margin-bottom: 10px;
+    }
+  }
+  </style>
+
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+<header>
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="/" class="navbar-brand">Koto（仮）</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li><a href="https://insight.kotocoin.info/">insight</a></li>
+          <li><a href="https://discourse.koto.cash/">Forum</a></li>
+          <li><a href="http://koto.cswiki.jp/">Wiki</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="page-header" id="banner">
+    <div class="row">
+      <div class="col-xs-12 outline">
+        <h1>コト 仮HP</h1>
+      </div>
+      <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">Download</div>
+            <div class="panel-body">
+              <ul>
+                <li><a href="https://github.com/koto-dev/koto/releases/tag/171224">Windows (Pre-release)</a></li>
+                <li><a href="https://github.com/koto-dev/koto/releases/tag/171228">OSX  (Pre-release)</a></li>
+                <li><a href="https://github.com/koto-dev/koto">Source code</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Mining Pool</div>
+            <div class="panel-body">
+              <ul>
+                <li><a href="http://koto.poolof.work:8080/">K-NOMP</a><br>./minerd -a yescrypt -o stratum+tcp://koto.poolof.work:3032 -u kXXXXXX -p anything</li>
+                <li><a href="https://kotopool.work:8080/">KOTOPOOL.WORK</a><br>./minerd -a yescrypt -o stratum+tcp://kotopool.work:{PORT} -u {YOUR_WALLET_ADDRESS} -p {anything}</li>
+                <li><a href="http://okoto.xyz/">おコトを少々</a><br>./minerd -a yescrypt -o stratum+tcp://okoto.xyz:51000 -u (kアドレス)</li>
+                <li><a href="http://www.kpool.jp/">KPOOL</a><br>./minerd -a yescrypt -o stratum+tcp://jp.kpool.jp:3333 -u kotoのアドレス</li>
+              </ul>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">Link</div>
+            <div class="panel-body">
+              <ul>
+                <li><a href="http://askmona.org/8590">AskMona</a></li>
+                <li><a href="http://askmona.org/8020">Mining discussion</a></li>
+                <li><a href="https://bitcointalk.org/index.php?topic=2579255.0">Bitcointalk</a></li>
+                <li><a href="https://discord.gg/UMpyXtn">Discord</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $('.bs-component [data-toggle="popover"]').popover();
+  $('.bs-component [data-toggle="tooltip"]').tooltip();
+</script>
+
+</body>
+</html>
