@@ -1,0 +1,138 @@
+a {
+  color: #6186b3;
+}
+
+a .fa {
+  width: 32px;
+  color: #444;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #416693;
+}
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #999;
+    border-color: #888;
+}
+
+.panel-default > .panel-body {
+  padding: 20px;
+}
+
+.jumbotron.header-bg {
+  background:url(../img/header_bg.jpg) center no-repeat; background-size: cover;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron.header-bg {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+}
+.jumbotron.header-bg::before {
+	content: ' ';
+	background-color: rgba(0,0,0,.4);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.jumbotron .container {
+  /* position: absolute; */
+  width: 100%;
+  text-align: center;
+}
+.jumbotron h1,.jumbotron p {
+	color: #fff;
+}
+
+.container {
+  max-width: 1080px;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+section ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+section li {
+  color: #393939;
+  padding: 5px 0;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.section-description p {
+  color: #666;
+}
+
+.section-description table {
+  margin-top: 50px;
+  font-size: 0.95em;
+}
+
+.section-description th {
+  color: #666
+}
+
+.section-getting-started {
+  background-color: #ccc;
+}
+
+.section-community {
+  background-color: #f9f9f9;
+}
+
+.section-footer{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #ccc;
+}
+
+.section-footer .navbar-nav{
+    float: none;
+    width: 420px;
+    margin: 10px auto;
+}
+
+.section-footer .navbar-nav>li{
+    text-align: center;
+    width: 80px;
+    font-size: 12px;
+}
+
+.section-footer .navbar-nav>li>a{
+    color: #333;
+}
+
+.sns-icon{
+    margin-top: 20px;
+}
+
+.sns-icon li{
+    padding-left: 20px;
+    color: #666;
+}
+.sns-icon li:hover{
+    color: #999;
+}
+
+.copyright{
+    margin-top: 20px;
+    color: #666;
+    font-size: 12px;
+}
