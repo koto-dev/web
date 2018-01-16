@@ -8,7 +8,7 @@
   <title>Koto</title>
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <style type="text/css">
   body { padding-top: 80px; }
@@ -58,9 +58,9 @@
 </head>
 
 
-<body data-spy="scroll" data-target="#page-scroll" data-offset="100">
+<body data-spy="scroll" data-target="#page-header" data-offset="50">
 
-<header id="page-scroll">
+<header id="page-header">
   <div id="header-menu" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -75,6 +75,9 @@
         <ul class="nav navbar-nav">
           <li class="">
             <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li class="">
+            <a class="page-scroll" href="#specification">Spec</a>
           </li>
           <li class="">
             <a class="page-scroll" href="#getting-started">Download</a>
@@ -94,7 +97,7 @@
     <div class="row">
       <div class="col-xs-12 outline">
         <h1>Koto</h1>
-        <p>Yet Another Cryptocurrency. Under Development.</p>
+        <!-- <p>Yet Another Cryptocurrency. Under Development.</p> -->
       </div>
     </div>
   </div>
@@ -105,19 +108,60 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 text-center">
-        <h1 class="section-title">About</h1>
-        <p>
+        <h1 class="section-title">About Koto</h1>
+        <!-- <p>
           Brief description about concept of Koto.<br>
           Brief description about concept of Koto.<br>
           Brief description about concept of Koto.
+        </p> -->
+      </div>
+      <div class="col-xs-12 col-md-6 text-center description-box">
+        <h2><i class="fa fa-shield fa-3x"></i></h2>
+        <h2>プライバシーの保護</h2>
+      </div>
+      <div class="col-xs-12 col-md-6 description-box">
+        <p class="box1">
+          多くの仮想通貨では、あなたの取引履歴や残高を誰かに追跡される可能性があることをご存知ですか？<br>
+          Kotoは「ゼロ知識証明」と呼ばれる理論にをベースにし、保護されたアドレスによってあなたのプライバシーを守ります。<br>
+          また公開取引により必要な透明性を確保することも可能です。<br>
         </p>
+      </div>
+      <div class="col-xs-12 col-md-6 text-center description-box col-md-push-6">
+        <h2><i class="fa fa-handshake-o fa-3x"></i></h2>
+        <h2>民主的なマイニング</h2>
+      </div>
+      <div class="col-xs-12 col-md-6 description-box col-md-pull-6">
+        <p class="box2">
+          マイニング資源の分散は仮想通貨の民主性と安全性を高めます。<br>
+          ハッシュアルゴリズムとしてCPUベースのYescryptを採用するKotoは、家庭のPCやスマートフォンでもマイニングに参加しやすい、より民主的な仮想通貨です。<br>
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-6 text-center description-box">
+        <h2><i class="fa fa-comments-o fa-3x"></i></h2>
+        <h2>オープンな開発</h2>
+      </div>
+      <div class="col-xs-12 col-md-6 description-box">
+        <p class="box3">
+          Kotoのソースコードは公開されており、オープンなコミュニティによって日々活発に議論と開発が進められています。<br>
+          誰かのKotoからみんなのKotoへ。<br>
+          あなたの参加をお待ちしています。<br>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="specification" class="section-specification">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h1 class="section-title">Specification</h1>
       </div>
       <div class="col-md-3">
       </div>
       <div class="col-xs-12 col-md-6 specification">
         <table class="table">
           <tbody>
-            <tr><th>Symbol</th><td>To be determined</td></tr>
+            <tr><th>Symbol</th><td>KOTO</td></tr>
             <tr><th>Unit</th><td>koto</td></tr>
             <tr><th>Hash Algorithm</th><td>Yescrypt (GlobalBoost-Y)</td></tr>
             <tr><th>Total Amount</th><td>212,000,000 koto</td></tr>
@@ -150,9 +194,9 @@
               <div class="panel-heading text-center">Core Client</div>
               <div class="panel-body">
                 <ul>
+                  <li><a href="https://github.com/koto-dev/koto"><i class="fa fa-github"></i> Source Code</a></li>
                   <li><a href="https://github.com/koto-dev/koto/releases/tag/171224"><i class="fa fa-windows"></i> Windows</a></li>
                   <li><a href="https://github.com/koto-dev/koto/releases/tag/171228"><i class="fa fa-apple"></i> OS X</a></li>
-                  <li><a href="https://github.com/koto-dev/koto"><i class="fa fa-github"></i> Source Code</a></li>
                 </ul>
               </div>
             </div>
@@ -173,15 +217,18 @@
               <div class="panel-heading text-center">Web Wallet</div>
               <div class="panel-body">
                 <ul>
-                  <li><a href="https://makewallet.online/">MakeWallet</a></li>
+                  <li><a href="https://makewallet.online/"><i class="fa fa-globe"></i> MakeWallet</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-xs-12">
             <p class="text-muted text-center">
-              Every software is still on active development.<br>
-              Thank you for your patience and great corporation.
+              全てのソフトウェアは継続開発中であり、日々改善が続けられていますが、<br>
+              なお動作に関して不具合や不安定性を含む可能性があります。<br>
+              ご理解とご協力に感謝します。
+              <!-- Every software is still on active development.<br>
+              Thank you for your patience and great corporation. -->
             </p>
           </div>
         </div>
@@ -199,7 +246,7 @@
         <div class="row">
           <div class="col-xs-12 col-md-4">
             <div class="panel panel-default">
-              <div class="panel-heading text-center">Discussion</div>
+              <div class="panel-heading text-center">Community</div>
               <div class="panel-body">
                 <ul>
                   <li><a href="https://discourse.koto.cash/">Forum</a></li>
@@ -268,18 +315,32 @@
   $('.bs-component [data-toggle="popover"]').popover();
   $('.bs-component [data-toggle="tooltip"]').tooltip();
 </script>
-
 <script>
   $( function() {
     $('.page-scroll').click( function () {
       var href = $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
-      var headerHeight = $("#header-menu").height();
+      // var headerHeight = $("#header-menu").height();
+      var headerHeight = 40;
       var position = target.offset().top - headerHeight;
       $('body,html').animate({scrollTop:position}, 400, 'swing');
       return false;
     } );
   } );
+</script>
+<script type="text/javascript">
+(function($) {
+    $(function() {
+        var $header = $('#page-header');
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 40) {
+                $header.addClass('compact');
+            } else {
+                $header.removeClass('compact');
+            }
+        });
+    });
+})(jQuery);
 </script>
 
 </body>
