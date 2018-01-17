@@ -21,6 +21,7 @@ a .fa {
 
 #page-header .navbar-brand {
   font-size: 24px;
+  font-weight: 600;
 }
 #page-header .navbar-brand i {
   font-size: 26px;
@@ -85,7 +86,7 @@ a .fa {
   margin-bottom: 0;
 }
 .jumbotron.header-bg {
-  background:url(../img/header_bg.jpg) center no-repeat; background-size: cover;
+  background: url(../img/japanese-umbrellas-636870_1920.jpg) center no-repeat; background-size: cover;
   position: relative;
 }
 @media screen and (min-width: 768px) {
@@ -202,6 +203,13 @@ section li {
   padding-bottom: 40px;
   background-color: #fff;
 }
+@media screen and (min-width: 768px) {
+  .section-footer{
+    background:url(../img/footer-asanoha-bg.jpg) center no-repeat; background-size: cover;
+    position: relative;
+  }
+}
+
 .section-footer .navbar-nav{
     float: none;
     width: 420px;
