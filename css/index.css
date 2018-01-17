@@ -13,6 +13,12 @@ a .fa {
   background-color: #E0AE1B;
 }
 
+@media screen and (min-width: 768px) {
+  #page-header .navbar {
+    background:url(../img/header-asanoha-bg.jpg) center no-repeat; background-size: cover;
+  }
+}
+
 #page-header .navbar-brand {
   font-size: 24px;
 }
@@ -53,6 +59,10 @@ a .fa {
   padding-top: 8px;
   padding-bottom: 8px;
   font-size: 16px;
+}
+#page-header.compact .navbar-toggle {
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .panel-default {
