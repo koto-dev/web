@@ -200,6 +200,13 @@ section li {
   position: relative;
 }
 
+.link-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
 .section-footer{
   text-align: center;
   padding-top: 20px;
