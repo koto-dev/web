@@ -153,6 +153,9 @@ section li {
 .section-description p {
   color: #666;
 }
+.section-description hr {
+  border-color: #ddd;
+}
 .description-box {
   margin: 10px 0;
 }
@@ -165,13 +168,13 @@ section li {
 }
 @media screen and (min-width: 768px) {
   .description-box .box1 {
-    margin: 30px 10px;
+    margin: 24px 10px 36px;
   }
   .description-box .box2 {
-    margin: 55px 10px;
+    margin: 24px 10px 66px;
   }
   .description-box .box3 {
-    margin: 40px 10px;
+    margin: 24px 10px 56px;
   }
 }
 
