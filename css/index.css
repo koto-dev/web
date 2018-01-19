@@ -210,6 +210,15 @@ section li {
   margin-right: 4px;
 }
 
+.region {
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background-color: #666;
+  color: #fff;
+  font-size: 12px;
+}
+
 .section-footer{
   text-align: center;
   padding-top: 20px;
