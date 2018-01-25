@@ -180,20 +180,16 @@ section li {
     margin: 24px 10px 56px;
   }
 }
-
-.section-specification {
-  background:url(../img/sippou-bg.jpg) repeat;
-  position: relative;
+.description-link {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 5px 60px;
 }
-.section-specification table {
-  margin-top: 10px;
-  font-size: 0.95em;
+a:hover.description-link {
+  color: #999;
 }
-.section-specification th {
-  color: #666
-}
-.section-specification .text-muted {
-  font-size: 14px;
+a.description-link {
+  color: #666;
 }
 
 .section-getting-started {
@@ -202,7 +198,8 @@ section li {
 }
 
 .section-news {
-  background-color: #efe;
+  background:url(../img/sippou-bg.jpg) repeat;
+  position: relative;
 }
 .section-news h2 {
   margin-top: 8px;
