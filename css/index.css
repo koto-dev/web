@@ -2,7 +2,7 @@ a {
   color: #6186b3;
 }
 
-a .fa {
+.list-icon {
   width: 32px;
   color: #444;
   font-size: 1.5em;
@@ -67,19 +67,22 @@ a .fa {
 }
 
 .panel-default {
+  border-radius: 5px;
   -moz-box-shadow: 0 2px 4px rgba(50,50,50,.1);
   -webkit-box-shadow: 0 2px 4px rgba(50,50,50,.1);
   box-shadow: 0 2px 4px rgba(50,50,50,.1);
 }
 .panel-default > .panel-heading {
-    color: #fff;
-    /* background-color: #bbb;
-    border-color: #aaa; */
-    background-color: #bb9;
-    border-color: #aa8;
+  border-radius: 5px 5px 0px 0px;
+  color: #fff;
+  /* background-color: #bbb;
+  border-color: #aaa; */
+  background-color: #bb9;
+  border-color: #aa8;
 }
 .panel-default > .panel-body {
   padding: 20px;
+  border-color: none;
 }
 
 .jumbotron {
@@ -196,6 +199,39 @@ section li {
 .section-getting-started {
   background:url(../img/seigaiha-bg.jpg) center no-repeat; background-size: cover;
   position: relative;
+}
+
+.section-news {
+  background-color: #efe;
+}
+.section-news h2 {
+  margin-top: 8px;
+  /* like twitter */
+  font-size: 27px;
+  font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+}
+.pickup-news {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  -moz-box-shadow: 0 2px 4px rgba(50,50,50,.1);
+  -webkit-box-shadow: 0 2px 4px rgba(50,50,50,.1);
+  box-shadow: 0 2px 4px rgba(50,50,50,.1);
+}
+.pickup-news hr {
+  margin: 0 -10px 15px;
+}
+.pickup-news p {
+  /* font-weight: 600; */
+}
+.pickup-news ul {
+  margin-top: 0;
+}
+.twitter-widget iframe {
+  -moz-box-shadow: 0 2px 4px rgba(50,50,50,.1);
+  -webkit-box-shadow: 0 2px 4px rgba(50,50,50,.1);
+  box-shadow: 0 2px 4px rgba(50,50,50,.1);
 }
 
 .section-community {
