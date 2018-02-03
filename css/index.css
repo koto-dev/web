@@ -64,7 +64,7 @@ a {
   align-items: center;
 }
 #page-header .navbar-brand img {
-  height: 120%;
+  height: 28px;
   padding: 0 4px;
   width: auto;
 }
@@ -95,7 +95,7 @@ a {
   font-size: 20px;
 }
 #page-header.compact .navbar-brand img {
-  height: 90%;
+  height: 22px;
 }
 #page-header.compact .navbar-nav li a {
   margin-top: 0px;
