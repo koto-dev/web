@@ -13,7 +13,7 @@ a {
   background-color: #E0AE1B;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   #page-header .navbar {
     background:url(../img/header-asanoha-bg.jpg) center no-repeat; background-size: cover;
   }
@@ -75,9 +75,7 @@ a {
 .panel-default > .panel-heading {
   border-radius: 5px 5px 0px 0px;
   color: #fff;
-  /* background-color: #bbb;
-  border-color: #aaa; */
-  background-color: #bb9;
+  background-color: #BBA56A;
   border-color: #aa8;
 }
 .panel-default > .panel-body {
@@ -89,36 +87,58 @@ a {
   margin-bottom: 0;
 }
 .jumbotron.header-bg {
-  background: url(../img/japanese-umbrellas-636870_1920.jpg) center no-repeat; background-size: cover;
+  background: url(../img/header-bg-gold.jpg) center no-repeat; background-size: cover;
   position: relative;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0,.3) inset;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .jumbotron.header-bg {
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
-}
-.jumbotron.header-bg::before {
-	content: ' ';
-	background-color: rgba(0,0,0,.4);
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
 }
 .jumbotron .container {
   /* position: absolute; */
   width: 100%;
   text-align: center;
 }
+.jumbotron .coin-icon {
+  width: 200px;
+}
+@media screen and (min-width: 992px) {
+  .jumbotron .coin-icon {
+    width: 480px;
+  }
+}
 .jumbotron h1,.jumbotron p {
 	color: #fff;
 }
-@media screen and (min-width: 768px) {
+.jumbotron h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 0px 0px 8px rgba(0,0,0,.5);
+  margin-top: 0;
+}
+.jumbotron p {
+  font-weight: 600;
+  padding-left: 8px;
+  font-size: 16px;
+  text-shadow: 0px 0px 8px rgba(0,0,0,.5);
+}
+@media screen and (min-width: 992px) {
   .jumbotron h1 {
-    font-size: 108px;
-    font-weight: 600;
+    font-size: 118px;
+    text-align: left;
+  }
+  .jumbotron p {
+    font-size: 24px;
+    text-align: left;
+  }
+  .vertical-align {
+      display: flex;
+      align-items: center;
   }
 }
 
@@ -142,7 +162,7 @@ section li {
   margin-bottom: 20px;
   font-weight: 600;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .section-title {
     margin-bottom: 30px;
     font-size: 44px;
@@ -169,7 +189,7 @@ section li {
 .description-box h2 i {
   color: #E0AE1B;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .description-box .box1 {
     margin: 24px 10px 36px;
   }
@@ -261,7 +281,7 @@ a.description-link {
   padding-bottom: 40px;
   background-color: #fff;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .section-footer{
     background:url(../img/footer-asanoha-bg.jpg) center no-repeat; background-size: cover;
     position: relative;
