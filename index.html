@@ -85,7 +85,10 @@
   <div class="container">
     <div class="row vertical-align">
       <div class="col-xs-12 col-md-6">
-        <img src="./img/koto-icon-front-color-640.png" class="coin-icon">
+        <a class="coin-icon-button" id="coin-icon-button">
+          <img src="./img/koto-icon-front-color-640.png" class="coin-icon" id="coin-icon"><br>
+          <span class="coin-face" id="coin-face">FRONT</span>
+        </a>
       </div>
       <div class="col-xs-12 col-md-6 outline">
         <h1>Koto</h1>
@@ -415,6 +418,23 @@
         });
     });
 })(jQuery);
+</script>
+<script>
+  $( function() {
+    function toggle_coin_icon(img, txt) {
+      if (img.attr("src") == "./img/koto-icon-front-color-640.png") {
+        img.attr("src", "./img/koto-icon-rear-color-640.png");
+        txt.text("REAR");
+      } else {
+        img.attr("src", "./img/koto-icon-front-color-640.png");
+        txt.text("FRONT");
+      }
+      return false;
+    }
+    $('#coin-icon-button').click( function () {
+      toggle_coin_icon($('#coin-icon'), $('#coin-face'));
+    } );
+  } );
 </script>
 
 </body>

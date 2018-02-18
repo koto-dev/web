@@ -47,6 +47,19 @@ a {
   text-align: center;
 }
 
+.coin-icon-button,.coin-icon-button:hover {
+  color: #bb9;
+}
+.coin-face {
+  font-size: 18px;
+  color: #bb9;
+}
+@media screen and (max-width: 992px) {
+  .coin-face {
+    display: none;
+  }
+}
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: #E0AE1B;
 }
@@ -157,11 +170,11 @@ a {
   text-align: center;
 }
 .jumbotron .coin-icon {
-  width: 200px;
+  height: 200px;
 }
 @media screen and (min-width: 992px) {
   .jumbotron .coin-icon {
-    width: 480px;
+    height: 480px;
   }
 }
 .jumbotron h1,.jumbotron p {
