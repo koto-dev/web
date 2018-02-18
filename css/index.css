@@ -313,6 +313,11 @@ a.description-link {
 .pickup-news-list {
   min-height: 200px;
 }
+.pickup-news-list .post-date {
+  font-size: 15px;
+  color: #999;
+  margin-right: 20px;
+}
 .twitter-widget iframe {
   -moz-box-shadow: 0 2px 4px rgba(50,50,50,.1);
   -webkit-box-shadow: 0 2px 4px rgba(50,50,50,.1);
