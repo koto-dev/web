@@ -47,12 +47,15 @@ a {
   text-align: center;
 }
 
-.coin-icon-button,.coin-icon-button:hover {
+.coin-icon-button {
   color: #bb9;
 }
+.coin-icon-button:hover {
+  text-decoration: none;
+  color: #eee;
+}
 .coin-face {
-  font-size: 18px;
-  color: #bb9;
+  font-size: 14px;
 }
 @media screen and (max-width: 992px) {
   .coin-face {
@@ -313,10 +316,15 @@ a.description-link {
 .pickup-news-list {
   min-height: 200px;
 }
+.pickup-news-list a {
+  text-align: left;
+  float: left;
+}
 .pickup-news-list .post-date {
   font-size: 15px;
   color: #999;
-  margin-right: 20px;
+  margin-right: 10px;
+  text-align: right;
 }
 .twitter-widget iframe {
   -moz-box-shadow: 0 2px 4px rgba(50,50,50,.1);
