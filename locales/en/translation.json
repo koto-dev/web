@@ -1,0 +1,22 @@
+{
+  "about": {
+    "privacy": {
+      "title": "",
+      "desc": ""
+    },
+    "mining": {
+      "title": "",
+      "desc": ""
+    },
+    "development": {
+      "title": "",
+      "desc": ""
+    }
+  },
+  "news": {
+    "official-account": ""
+  },
+  "gs": {
+    "desc": ""
+  }
+}
