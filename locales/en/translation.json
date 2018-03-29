@@ -1,22 +1,22 @@
 {
   "about": {
     "privacy": {
-      "title": "",
-      "desc": ""
+      "title": "PRIVACY PROTECTION",
+      "desc": "Do you know that your transaction records and balances can be traced with most of all the cryptocurrencies?<br>Koto is based on a theory, called zero-knowledge proofs, to protect your privacy with shielded addresses.<br>Of course, you can secure open transactions to use transparent addresses, as necessary.<br>"
     },
     "mining": {
-      "title": "",
-      "desc": ""
+      "title": "DEMOCRATIC MINING",
+      "desc": "Delocalization of mining resources enhances democracy and safety of a cryptocurrency.<br>Koto is a democratic cryptocurrency because Koto uses a CPU friendly hash algorithm, namely Yescrypt, which can easily be mined by PCs and smartphones at home.<br>"
     },
     "development": {
-      "title": "",
-      "desc": ""
+      "title": "OPEN SOURCE",
+      "desc": "Koto is open source and we keep discussing and developing Koto actively in the open community.<br>Is Koto someone's?  Absolutely no.  Koto is always everyone's.<br>We are looking forward to having you join us.<br>"
     }
   },
   "news": {
-    "official-account": ""
+    "official-account": "OFFICIAL ACCOUNT"
   },
   "gs": {
-    "desc": ""
+    "desc": "All the software is still under development and improved day by day.<br>Therefore, it might have bugs and instability.<br>Thank you for your understanding and cooperation."
   }
 }
