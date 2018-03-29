@@ -74,6 +74,13 @@
           <li class="">
             <a class="page-scroll" href="#more-info">More</a>
           </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="select-language" id="ja"><a href="#">日本語</a></li>
+              <li class="select-language" id="en"><a href="#">English</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -390,6 +397,13 @@
       jqueryI18next.init(i18next, $);
       $('[data-i18n]').localize();
     });
+
+  $('li.select-language').on('click', function(e) {
+    e.preventDefault();
+    i18next.changeLanguage($(this).attr('id'), function() {
+      $('[data-i18n]').localize();
+    });
+  });
 </script>
 
 <script type="text/javascript">
