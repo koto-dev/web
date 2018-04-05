@@ -74,6 +74,13 @@
           <li class="">
             <a class="page-scroll" href="#more-info">More</a>
           </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="select-language" id="ja"><a href="#">日本語</a></li>
+              <li class="select-language" id="en"><a href="#">English</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -111,42 +118,31 @@
         </p> -->
       </div>
       <div class="col-xs-12 col-md-6 text-center description-box">
-        <h2>プライバシーの保護</h2>
+        <h2 data-i18n="about.privacy.title"></h2>
         <h2><i class="fa fa-shield fa-3x"></i></h2>
       </div>
       <div class="col-xs-12 col-md-6 description-box">
-        <p class="box1">
-          多くの仮想通貨では、あなたの取引履歴や残高を誰かに追跡される可能性があることをご存知ですか？<br>
-          Kotoは「ゼロ知識証明」と呼ばれる理論をベースにし、保護されたアドレスによってあなたのプライバシーを守ります。<br>
-          また公開取引により必要な透明性を確保することも可能です。<br>
-        </p>
+        <p class="box1" data-i18n="[html]about.privacy.desc"></p>
       </div>
       <div class="col-xs-12 text-center">
         <hr/>
       </div>
       <div class="col-xs-12 col-md-6 text-center description-box col-md-push-6">
-        <h2>民主的なマイニング</h2>
+        <h2 data-i18n="about.mining.title"></h2>
         <h2><i class="fa fa-handshake-o fa-3x"></i></h2>
       </div>
       <div class="col-xs-12 col-md-6 description-box col-md-pull-6">
-        <p class="box2">
-          マイニング資源の分散は仮想通貨の民主性と安全性を高めます。<br>
-          ハッシュアルゴリズムとしてCPUベースのYescryptを採用するKotoは、家庭のPCやスマートフォンでもマイニングに参加しやすい、より民主的な仮想通貨です。<br>
-        </p>
+        <p class="box2" data-i18n="[html]about.mining.desc"></p>
       </div>
       <div class="col-xs-12 text-center">
         <hr/>
       </div>
       <div class="col-xs-12 col-md-6 text-center description-box">
-        <h2>オープンな開発</h2>
+        <h2 data-i18n="about.development.title"></h2>
         <h2><i class="fa fa-comments-o fa-3x"></i></h2>
       </div>
       <div class="col-xs-12 col-md-6 description-box">
-        <p class="box3">
-          Kotoのソースコードは公開されており、オープンなコミュニティによって日々活発に議論と開発が進められています。<br>
-          誰かのKotoからみんなのKotoへ。<br>
-          あなたの参加をお待ちしています。<br>
-        </p>
+        <p class="box3" data-i18n="[html]about.development.desc"></p>
       </div>
       <div class="col-xs-12 text-center">
         <hr>
@@ -178,7 +174,7 @@
                 <li><a href="https://medium.com/@KotoOfficial/kotoofficialblog-hello-world-fc8afc51cb14">KotoOfficialBlog “hello world”</a><p class="post-date">Feb 11, 2018</p></li>
               </ul>
               <hr>
-              <p class="">公式アカウントをチェック</p>
+              <p class="" data-i18n="news.official-account"></p>
               <ul class="sns-icon list-inline">
                 <li>
                   <a href="https://medium.com/@KotoOfficial"><i class="fa fa-medium fa-3x"></i></a>
@@ -273,10 +269,7 @@
             </div>
           </div>
           <div class="col-xs-12">
-            <p class="text-muted text-center">
-              全てのソフトウェアは継続開発中であり、日々改善が続けられていますが、<br>
-              なお動作に関して不具合や不安定性を含む可能性があります。<br>
-              ご理解とご協力に感謝します。
+            <p class="text-muted text-center" data-i18n="[html]gs.desc">
               <!-- Every software is still on active development.<br>
               Thank you for your patience and great corporation. -->
             </p>
@@ -387,6 +380,31 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/i18next.min.js"></script>
+<script src="js/i18nextXHRBackend.min.js"></script>
+<script src="js/jquery-i18next.min.js"></script>
+
+<script type="text/javascript">
+  i18next
+    .use(i18nextXHRBackend)
+    .init({
+      lng: (window.navigator.languages && window.navigator.languages[0]) || window.navigator.language || window.navigator.userLanguage || window.navigator.browserLanguage,
+      fallbackLng: 'en',
+      backend: {
+        loadPath: './locales/{{lng}}/{{ns}}.json'
+      }
+    }, function(t) {
+      jqueryI18next.init(i18next, $);
+      $('[data-i18n]').localize();
+    });
+
+  $('li.select-language').on('click', function(e) {
+    e.preventDefault();
+    i18next.changeLanguage($(this).attr('id'), function() {
+      $('[data-i18n]').localize();
+    });
+  });
+</script>
 
 <script type="text/javascript">
   $('.bs-component [data-toggle="popover"]').popover();
