@@ -18,5 +18,12 @@
   },
   "gs": {
     "desc": "All the software is still under development and improved day by day.<br>Therefore, it might have bugs and instability.<br>Thank you for your understanding and cooperation."
+  },
+  "services": {
+    "community": {
+      "kotoch": {
+        "title": "Koto Channel α"
+      }
+    }
   }
 }
