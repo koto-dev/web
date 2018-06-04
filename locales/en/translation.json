@@ -25,5 +25,16 @@
         "title": "Koto Channel α"
       }
     }
+  },
+  "announcement": {
+    "header": {
+      "makewallet": {
+        "title": "FOR USERS OF MAKEWALLET",
+        "text": "Makewallet will be closed at the end of June. Please withdraw your Koto immediately."
+      }
+    },
+    "services": {
+      "makewallet": "Makewallet will be closed at the end of June. Please withdraw your Koto immediately."
+    }
   }
 }
