@@ -25,5 +25,16 @@
         "title": "コトちゃんねるα"
       }
     }
+  },
+  "announcement": {
+    "header": {
+      "makewallet": {
+        "title": "Makewallet利用者の方へ",
+        "text": "Makewalletは6月末に閉鎖が予定されています。<br>MakewalletにKotoを預けている方は、直ちに引き出してください。"
+      }
+    },
+    "services": {
+      "makewallet": "Makewalletは6月を以て閉鎖します。直ちに他のウォレットに引き出してください。"
+    }
   }
 }
