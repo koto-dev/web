@@ -2,13 +2,466 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; URL='https://ko-to.org'" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Koto</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#cbb57a">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- /favicons -->
+
+    <!--ogp-->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Koto Official Page">
+    <meta property="og:description" content="Koto is a cryptocurrency with full privacy control based on zero-knowledge proof, CPU-based PoW, and open development.">
+    <meta property="og:url" content="https://ko-to.org/">
+    <meta property="og:image" content="/img/og-1200x600.jpg">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="600" />
+    <!--/ogp-->
+    <!--twitter card-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/img/og-1200x600.jpg">
+    <meta name="twitter:site" content="@KotoOfficial" />
+    <!--/twitter card-->
+
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
   </head>
 
-  <body>
-<!--
-    <p>The official site for Koto has been moved to <a href="https://ko-to.org">https://ko-to.org</a>.</p>
--->
+
+  <body data-spy="scroll" data-target="#page-header" data-offset="50">
+
+    <header id="page-header">
+      <div id="header-menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="https://ko-to.org/" class="navbar-brand"><img src="./img/favicon/favicon-32x32.png">Koto</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar-main" class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+              <li class="">
+                <a class="page-scroll" href="#about">About</a>
+              </li>
+              <li class="">
+                <a class="page-scroll" href="#news">News</a>
+              </li>
+              <li class="">
+                <a class="page-scroll" href="#getting-started">Download</a>
+              </li>
+              <li class="">
+                <a class="page-scroll" href="#more-info">More</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="select-language" id="ja"><a href="#">日本語</a></li>
+                  <li class="select-language" id="en"><a href="#">English</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <div class="jumbotron header-bg">
+      <div class="container">
+        <div class="row vertical-align">
+          <div class="col-xs-12 col-md-6">
+            <a class="coin-icon-button" id="coin-icon-button">
+              <img src="./img/koto-icon-front-color-640.png" class="coin-icon" id="coin-icon"><br>
+              <span class="coin-face" id="coin-face">FRONT</span>
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-6 outline">
+            <h1>Koto</h1>
+            <p>Private CPU-based Cryptocurrency, from Japan. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="about" class="section-description">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="alert alert-warning" role="alert">
+              <h4 class="alert-heading" data-i18n="announcement.header.makewallet.title"></h4>
+              <p data-i18n="[html]announcement.header.makewallet.text"></p>
+            </div>
+            <h1 class="section-title">About Koto</h1>
+            <!-- <p>
+              Brief description about concept of Koto.<br>
+              Brief description about concept of Koto.<br>
+              Brief description about concept of Koto.
+            </p> -->
+          </div>
+          <div class="col-xs-12 col-md-6 text-center description-box">
+            <h2 data-i18n="about.privacy.title"></h2>
+            <h2><i class="fa fa-shield fa-3x"></i></h2>
+          </div>
+          <div class="col-xs-12 col-md-6 description-box">
+            <p class="box1" data-i18n="[html]about.privacy.desc"></p>
+          </div>
+          <div class="col-xs-12 text-center">
+            <hr/>
+          </div>
+          <div class="col-xs-12 col-md-6 text-center description-box col-md-push-6">
+            <h2 data-i18n="about.mining.title"></h2>
+            <h2><i class="fa fa-handshake-o fa-3x"></i></h2>
+          </div>
+          <div class="col-xs-12 col-md-6 description-box col-md-pull-6">
+            <p class="box2" data-i18n="[html]about.mining.desc"></p>
+          </div>
+          <div class="col-xs-12 text-center">
+            <hr/>
+          </div>
+          <div class="col-xs-12 col-md-6 text-center description-box">
+            <h2 data-i18n="about.development.title"></h2>
+            <h2><i class="fa fa-comments-o fa-3x"></i></h2>
+          </div>
+          <div class="col-xs-12 col-md-6 description-box">
+            <p class="box3" data-i18n="[html]about.development.desc"></p>
+          </div>
+          <div class="col-xs-12 text-center">
+            <hr>
+            <ul class="list-inline">
+              <li>
+                <a class="description-link" href="https://github.com/KotoDevelopers/docs/wiki#overview"><i class="fa fa-angle-double-right"></i>SPEC</a>
+              </li>
+              <li>
+                <a class="description-link" href="https://github.com/KotoDevelopers/docs/blob/master/overview/FAQs.md"><i class="fa fa-angle-double-right"></i>FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="news" class="section-news">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="section-title text-center">News</h1>
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                <div class="pickup-news">
+                  <h2>Pickup</h2>
+                  <hr>
+                  <ul class="pickup-news-list">
+                    <li><a href="https://medium.com/@KotoOfficial/kotoofficialblog-hello-world-fc8afc51cb14">KotoOfficialBlog “hello world”</a><p class="post-date">Feb 11, 2018</p></li>
+                  </ul>
+                  <hr>
+                  <p class="" data-i18n="news.official-account"></p>
+                  <ul class="sns-icon list-inline">
+                    <li>
+                      <a href="https://medium.com/@KotoOfficial"><i class="fa fa-medium fa-3x"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/kotoofficial"><i class="fa fa-twitter fa-3x"></i></a>
+                    </li>
+                    <!-- <li>
+                      <i class="fa fa-facebook fa-3x"></i>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="twitter-widget">
+                  <a class="twitter-timeline" data-height="412" href="https://twitter.com/KotoOfficial?ref_src=twsrc%5Etfw">Tweets by KotoOfficial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="getting-started" class="section-getting-started">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="section-title text-center">Download</h1>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">
+                    Core Client
+                    <p>
+                      Koto Daemon, Wallet, and CPU Miner
+                    </p>
+                  </div>
+                  <div class="panel-body">
+                    <ul>
+                      <li><a href="https://github.com/KotoDevelopers/koto"><i class="fa fa-github list-icon"></i> Source Code</a></li>
+                      <li><a href="https://github.com/KotoDevelopers/koto/releases/tag/dev-1.0.15"><i class="fa fa-windows list-icon"></i> Windows</a></li>
+                      <li><a href="https://github.com/KotoDevelopers/koto/releases/tag/dev-1.0.15"><i class="fa fa-apple list-icon"></i> OS X</a></li>
+                      <hr>
+                      <li>
+                        <a href="https://github.com/KotoDevelopers/wiki/wiki#roadmap-for-miners"><i class="fa fa-hand-o-right list-icon"></i> Getting Started</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">
+                    CPU Miner
+                    <p>
+                      Also Included in Core Client
+                    </p>
+                  </div>
+                  <div class="panel-body">
+                    <ul>
+                      <li><a href="https://github.com/KotoDevelopers/cpuminer-yescrypt"><i class="fa fa-github list-icon"></i> Source Code</a></li>
+                      <li><a href="https://github.com/KotoDevelopers/cpuminer-yescrypt/releases/tag/v2.4"><i class="fa fa-windows list-icon"></i> Windows</a></li>
+                      <li><a href="https://github.com/KotoDevelopers/cpuminer-yescrypt/releases/tag/180118"><i class="fa fa-apple list-icon"></i> OS X</a></li>
+                      <hr>
+                      <li>
+                        <a href="https://list.kotopool.work/"><i class="fa fa-list list-icon"></i> Mining Pool List</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">
+                    Wallet Option
+                    <p>
+                      If you need another way
+                    </p>
+                  </div>
+                  <div class="panel-body">
+                    <ul>
+                      <li>
+                        <a href="https://makewallet.online/"><i class="fa fa-globe list-icon"></i> <s>MakeWallet</a><span class="text-muted text-smaller">  : online wallet</s><br><small data-i18n="announcement.services.makewallet"></small></span>
+                      </li>
+                      <li>
+                        <a href="https://electrum.kotocoin.info/"><i class="fa fa-globe list-icon"></i> Electrum</a><span class="text-muted text-smaller">  : lightweight wallet</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <p class="text-muted text-center" data-i18n="[html]gs.desc">
+                  <!-- Every software is still on active development.<br>
+                  Thank you for your patience and great corporation. -->
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="more-info" class="section-community">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="section-title text-center">More</h1>
+            <div class="row">
+              <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">Community</div>
+                  <div class="panel-body">
+                    <ul>
+                      <li>
+                        <img src="https://discourse.ko-to.org/images/default-favicon.ico" class="link-icon">
+                        <a href="https://discourse.ko-to.org/">Forum</a>
+                      </li>
+                      <li>
+                        <img src="https://discordapp.com/assets/07dca80a102d4149e9736d4b162cff6f.ico" class="link-icon">
+                        <a href="https://discord.gg/HmsTDww">Discord</a>
+                      </li>
+                      <li>
+                        <img src="https://askmona.org/favicon.ico" class="link-icon">
+                        <a href="https://askmona.org/9527">AskMona</a>
+                      </li>
+                      <li>
+                        <img src="https://kotoch.com/favicon.ico" class="link-icon">
+                        <a href="https://kotoch.com/" data-i18n="services.community.kotoch.title"></a>
+                      </li>
+                      <li>
+                        <img src="https://bitcointalk.org/favicon.ico" class="link-icon">
+                        <a href="https://bitcointalk.org/index.php?topic=2579255.0">Bitcointalk</a> (<a href="https://bitcointalk.org/index.php?topic=2728195.0">English</a>)
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">Info and Tool</div>
+                  <div class="panel-body">
+                    <ul>
+                      <li>
+                        <a href="https://github.com/KotoDevelopers/"><i class="fa fa-github list-icon"></i> GitHub Account</a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/KotoDevelopers/docs/wiki"><i class="fa fa-github list-icon"></i> GitHub Wiki</a>
+                      </li>
+                      <li>
+                        <!-- <img src="https://koto.cswiki.jp/skin/image/favicon.ico" class="link-icon"> -->
+                        <a href="http://koto.cswiki.jp/"><i class="fa fa-globe list-icon"></i> User Wiki</a>
+                      </li>
+                      <li>
+                        <a href="https://insight.kotocoin.info/"><i class="fa fa-globe list-icon"></i> Insight</a>
+                      </li>
+                      <li>
+                        <img src="https://koto-faucet.torifuku-kaiou.tokyo/assets/favicon-63cef3809f2ea403e35077a18c4d3294b869671f727e3cb3d03882650b297d8d.ico" class="link-icon">
+                        <a href="https://koto-faucet.torifuku-kaiou.tokyo/koto/">Faucet</a>
+                      </li>
+                      <li>
+                        <a href="https://list.kotopool.work/"><i class="fa fa-list list-icon"></i> Mining Pool List</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">Service with Koto</div>
+                  <div class="panel-body">
+                    <ul>
+                      <li>
+                        <a href="https://kotopool.work/kotomemo/"><i class="fa fa-globe list-icon"></i> kotomemo</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="section-footer">
+      <!-- <ul class="sns-icon list-inline">
+        <li>
+          <i class="fa fa-twitter fa-3x"></i>
+        </li>
+        <li>
+          <i class="fa fa-facebook fa-3x"></i>
+        </li>
+        <li>
+          <i class="fa fa-github fa-3x"></i>
+        </li>
+      </ul> -->
+      <div class="copyright">
+        <span>Copyright &#169;The Koto Developers 2018</span>
+      </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/i18next.min.js"></script>
+    <script src="js/i18nextXHRBackend.min.js"></script>
+    <script src="js/jquery-i18next.min.js"></script>
+
+    <script type="text/javascript">
+        i18next
+            .use(i18nextXHRBackend)
+            .init({
+                lng: (window.navigator.languages && window.navigator.languages[0]) || window.navigator.language || window.navigator.userLanguage || window.navigator.browserLanguage,
+                fallbackLng: 'en',
+                backend: {
+                    loadPath: './locales/{{lng}}/{{ns}}.json'
+                }
+            }, function(t) {
+                jqueryI18next.init(i18next, $);
+                $('[data-i18n]').localize();
+            });
+
+        $('li.select-language').on('click', function(e) {
+            e.preventDefault();
+            i18next.changeLanguage($(this).attr('id'), function() {
+                $('[data-i18n]').localize();
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('.bs-component [data-toggle="popover"]').popover();
+        $('.bs-component [data-toggle="tooltip"]').tooltip();
+    </script>
+    <script>
+        $( function() {
+            $('.page-scroll').click( function () {
+                var href = $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                // var headerHeight = $("#header-menu").height();
+                var headerHeight = 40;
+                var position = target.offset().top - headerHeight;
+                $('body,html').animate({scrollTop:position}, 400, 'swing');
+                return false;
+            } );
+        } );
+    </script>
+    <script type="text/javascript">
+        (function($) {
+            $(function() {
+                var $header = $('#page-header');
+                $(window).scroll(function() {
+                    if ($(window).scrollTop() > 40) {
+                        $header.addClass('compact');
+                    } else {
+                        $header.removeClass('compact');
+                    }
+                });
+            });
+        })(jQuery);
+    </script>
+    <script>
+        $( function() {
+            function toggle_coin_icon(img, txt) {
+                if (img.attr("src") == "./img/koto-icon-front-color-640.png") {
+                    img.attr("src", "./img/koto-icon-rear-color-640.png");
+                    txt.text("REAR");
+                } else {
+                    img.attr("src", "./img/koto-icon-front-color-640.png");
+                    txt.text("FRONT");
+                }
+                return false;
+            }
+            $('#coin-icon-button').click( function () {
+                toggle_coin_icon($('#coin-icon'), $('#coin-face'));
+            } );
+        } );
+    </script>
+
   </body>
 </html>
