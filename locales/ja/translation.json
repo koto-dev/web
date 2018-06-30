@@ -30,11 +30,11 @@
     "header": {
       "makewallet": {
         "title": "Makewallet利用者の方へ",
-        "text": "Makewalletは6月末に閉鎖が予定されています。<br>MakewalletにKotoを預けている方は、直ちに引き出してください。"
+        "text": "Makewalletは2018年6月30日に閉鎖されました<br>7月中の対応はMakewallet公式のTwitterの案内をご確認ください"
       }
     },
     "services": {
-      "makewallet": "Makewalletは6月を以て閉鎖します。直ちに他のウォレットに引き出してください。"
+      "makewallet": "Makewalletは2018年6月30日に閉鎖されました<br>7月中の対応はMakewallet公式のTwitterの案内をご確認ください"
     }
   }
 }
