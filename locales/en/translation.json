@@ -30,11 +30,11 @@
     "header": {
       "makewallet": {
         "title": "FOR USERS OF MAKEWALLET",
-        "text": "Makewallet will be closed at the end of June. Please withdraw your Koto immediately."
+        "text": "Makewallet was closed on 06/30/2018.<br>Please check the Makewallet Official Twitter for the correspondence during July."
       }
     },
     "services": {
-      "makewallet": "Makewallet will be closed at the end of June. Please withdraw your Koto immediately."
+      "makewallet": "Makewallet was closed on 06/30/2018. Please check the Makewallet Official Twitter for the correspondence during July."
     }
   }
 }
