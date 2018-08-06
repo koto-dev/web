@@ -28,17 +28,10 @@
   },
   "announcement": {
     "header": {
-      "koto": {
-        "title": "FOR USERS OF Koto",
-        "text": "Hard Fork will activate at block height 335600 (4th August, 2018 at 10:58 JST).<br>Please update Koto 1.1.0 immediately if you are using old Koto."
-      },
-      "makewallet": {
-        "title": "FOR USERS OF MAKEWALLET",
-        "text": "Makewallet was closed on 06/30/2018.<br>Please check the Makewallet Official Twitter for the correspondence during July."
-      }
+
     },
     "services": {
-      "makewallet": "Makewallet was closed on 06/30/2018. Please check the Makewallet Official Twitter for the correspondence during July."
+
     }
   }
 }
