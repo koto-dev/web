@@ -28,17 +28,10 @@
   },
   "announcement": {
     "header": {
-      "koto": {
-        "title": "Koto利用者の方へ",
-        "text": "Kotoはブロック高335600（2018年8月4日 AM10:58 JSTごろ）にハードフォークいたします<br>旧版をお使いの方は早急にKoto 1.1.0にアップデートしてください"
-      },
-      "makewallet": {
-        "title": "Makewallet利用者の方へ",
-        "text": "Makewalletは2018年6月30日に閉鎖されました<br>7月中の対応はMakewallet公式のTwitterの案内をご確認ください"
-      }
+
     },
     "services": {
-      "makewallet": "Makewalletは2018年6月30日に閉鎖されました　7月中の対応はMakewallet公式のTwitterの案内をご確認ください"
+
     }
   }
 }
